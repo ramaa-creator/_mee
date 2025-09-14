@@ -1,0 +1,26 @@
+<DOCTYPE html>
+<html>
+    <head>
+        <Title>membuat constructor</Title>
+    </head>
+    <body>
+        <script>
+            class siswa {
+                constructor(nama,umur,kelas){
+                    this.nama = nama;
+                    this.umur = umur;
+                    this.kelas = kelas;
+                }
+            }
+            var siswa1 = new siswa("rama", 16, "11a")
+            var siswa2 = new siswa("ipul", 17, "11b")
+            var siswa3 = new siswa("syahdan", 17, "11c")
+            var siswa4 = new siswa("syfa", 16, "11d")
+
+            document.writeln("nama: " + siswa1.nama + ", umur: " + siswa1.umur + ", kelas: " + siswa1.kelas + "<br>");
+            document.writeln("nama: " + siswa2.nama + ", umur: " + siswa2.umur + ", kelas: " + siswa2.kelas + "<br>");
+            document.writeln("nama: " + siswa3.nama + ", umur: " + siswa3.umur + ", kelas: " + siswa3.kelas + "<br>");
+            document.writeln("nama: " + siswa4.nama + ", umur: " + siswa4.umur + ", kelas: " + siswa4.kelas + "<br>");
+        </script>
+    </body>
+</html>
